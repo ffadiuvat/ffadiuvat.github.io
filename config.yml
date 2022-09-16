@@ -1,0 +1,21 @@
+baseURL: ""
+title: Fortune Favors the Bold
+paginate: 5
+theme: PaperMod
+
+params:
+    profileMode:
+        enabled: true
+        title: "ffadiuvat" # optional default will be site title
+        subtitle: "Fortis Fortuna Adiuvat"
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Archive
+              url: "/archive"
+            - name: Github
+              url: "https://github.com/"
+
+    socialIcons: # optional
+        - name: github
+          url: "github.com/ffadiuvat"
